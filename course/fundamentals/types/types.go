@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
+
+	// O GO NÃO TEM CHAR. O CHAR AQUI É DO TIPO INT32
+
 	//números inteiros
 	fmt.Println(1, 2, 1000)
 	fmt.Println("Literal inteiro é:", reflect.TypeOf(32000))
