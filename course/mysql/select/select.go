@@ -15,7 +15,7 @@ type usuario struct {
 
 func main() {
 	// Depois do "root:" tem que colocar a senha
-	db, err := sql.Open("mysql", "root:bgatahkei3010@/cursogo")
+	db, err := sql.Open("mysql", "root:@/cursogo")
 
 	if err != nil {
 		log.Fatal(err)
